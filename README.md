@@ -4,7 +4,7 @@ A digital twin
 
 ## Documentation
 
-**Prerequests**
+**Prerequisites**
 1.Node
 2.Python
 
