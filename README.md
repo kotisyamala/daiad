@@ -29,3 +29,13 @@ A digital twin
 
 **Start:** npm run start
 
+
+## Python Flask App
+## Python Flask App Project commands trace log:
+
+**Python Flask App Setup commands:**
+
+**Create Virtual environment :**  py -m venv venv
+
+**Windows - Activite Vevn:** .\venv\Scripts\activate 
+** Install Flask:** pip install Flask
