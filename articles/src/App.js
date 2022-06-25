@@ -7,7 +7,7 @@ const App = props => {
     useEffect(() => {
     fetch('http://localhost:5000/articles')
       .then((response) => response.json())
-      .then((json) =>{setState(json.articles); console.log(json.articles);} );
+      .then((json) =>{setState(json.Items); console.log(json.Items);} );
   }, []);
     return (
        <div>
