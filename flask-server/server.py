@@ -1,10 +1,11 @@
 from flask import Flask
-
+from flask_cors import CORS
 app = Flask(__name__);
+CORS(app)
 
 #Articles API Route
 
-@app.route('/articles')
+@app.route('/articles', methods=["GET"], strict_slashes=False)
 def articles():
     return{"articles":[{
       "title": "Totaled Tesla goes up in flames three weeks after crash",

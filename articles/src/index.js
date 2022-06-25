@@ -1,4 +1,11 @@
-let articles = [
+/*import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);*/
+/*let articles = [
     {
       "title": "Totaled Tesla goes up in flames three weeks after crash",
       "description": "A totaled Tesla Model S burst into flames in a Sacramento junkyard earlier this month, causing a fire that took \"a significant amount of time, water, and thinking outside the box to extinguish,\" firefighters said. The vehicle was involved in a comparably",
@@ -21,4 +28,4 @@ let articles = [
   articles.forEach(article => {
     listOfArticles+= "<h1>"+article.title+"</h1><img width=\"100%\" height=\"400px\" src="+article.imageUrl+" alt="+article.title+"/> <p>"+article.description+"</p><p> <b>Tags</b>:"+article.tags+"</p>";
   });
-  document.querySelector('#dev-articles').innerHTML = listOfArticles;
+  document.querySelector('#dev-articles').innerHTML = listOfArticles;*/
