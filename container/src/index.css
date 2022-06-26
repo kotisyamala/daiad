@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+      "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgba(23, 195, 218, 0.562);
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  b {
+    font-size: 1.5rem;
+  }
+  h1 {
+    color: #03388d;
+    padding-top: 0px;
+  }
+  .bg-primary {
+    background-color: #03388d !important;
+  }
+  .navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+    font-family: "FuturaNextW05-Book", "Helvetica", "Arial", sans-serif;
+  }
+  .subText {
+    padding-left: 5px;
+    font-size: 15px;
+  }
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .divContainer {
+    margin-left: 35px !important;
+  }
+  ul.navbar-nav {
+    list-style: none;
+  }
+  li.nav-item {
+    display: inline;
+    padding: 20px;
+  }
+  @media screen and (max-width: 580px) {
+    .navbar-brand {
+      font-size: 22px;
+    }
+    .subText {
+      font-size: 10px;
+    }
+  }
+
+  

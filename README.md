@@ -38,6 +38,12 @@ A digital twin
 **Create Virtual environment :**  py -m venv venv
 
 **Windows - Activite Vevn:** .\venv\Scripts\activate 
-** Install Flask:** pip install Flask
+**Install Flask:** pip install Flask
 
+
+**Babel dependency:**
+
+npm install -D babel-loader @babel/core @babel/preset-env webpack
+
+npm install --save-dev @babel/preset-react
 
