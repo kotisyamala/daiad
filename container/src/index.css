@@ -29,15 +29,18 @@ body {
     color: #03388d;
     padding-top: 0px;
   }
+  h2{
+    color:#03388d;
+    padding-top: 0px;
+  }
   .bg-primary {
     background-color: #03388d !important;
   }
   .navbar-brand {
-    display: inline-block;
+    display: flex;
     padding-top: 0.3125rem;
     padding-bottom: 0.3125rem;
-    margin-right: 1rem;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     line-height: inherit;
     white-space: nowrap;
     font-family: "FuturaNextW05-Book", "Helvetica", "Arial", sans-serif;
@@ -54,11 +57,31 @@ body {
     margin-left: 35px !important;
   }
   ul.navbar-nav {
+    color: white !important;
     list-style: none;
+    text-align: right;
+    padding: 2rem 3rem 2rem 3rem;
+    align-items: end;
+    margin: 0px 0px 0px auto;
   }
   li.nav-item {
     display: inline;
     padding: 20px;
+  }
+  .da-footer p{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    color: white;
+  }
+  a.navbar-brand {
+    margin: 20px;
+  }
+  a.nav-link{
+    color: white !important;
+  }
+  .navbar-dark .navbar-brand{
+    color: white;
   }
   @media screen and (max-width: 580px) {
     .navbar-brand {

@@ -4,7 +4,8 @@ class Header extends React.Component
   render()
   {
     return (
-      <nav class="navbar-brand">
+      <nav class="navbar-brand navbar navbar-expand navbar-dark bg-primary">
+      <a class="navbar-brand" href="/blog/Welcome">Daiad<sub class="subText">for KPMG</sub></a>
       <ul class="navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="/">Home</a>
